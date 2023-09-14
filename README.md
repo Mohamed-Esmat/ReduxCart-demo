@@ -1,13 +1,15 @@
 # Redux Cart Project
 
+![Header Image](https://res.cloudinary.com/tawfeer/image/upload/v1694719489/ReduxCart_xlajdf.png)
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
   - [Key Concepts Covered](#key-concepts-covered)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
-- [Project Walkthrough](#project-walkthrough)
-- [Learn More](#learn-more)
+- [Sample Backend](#sample-backend)
+- [Demo](#demo)
 - [License](#license)
 
 ## Project Overview
@@ -58,23 +60,20 @@ The project structure follows standard React-Redux conventions. Here's an overvi
   - **`App.js`**: The main application component.
   - **`index.js`**: Entry point for the React application.
 
-## Project Walkthrough
+## Sample Backend
 
-The project is structured as follows:
+This project uses Firebase as a sample backend for handling data and asynchronous operations. The Firebase configuration can be found in the project's source code.
 
-1. **Initial Setup**: The starting project includes React components that display dummy data. These components are non-interactive.
+## Demo
 
-2. **Adding Redux**: Redux is introduced to the project to manage application state.
+You can explore a live demo of the Redux Cart Project by visiting the following link:
 
-3. **Implementing Logic**: The project implements logic to make the application interactive. Key features include:
-   - Toggling the cart display.
-   - Adding products to the cart.
-   - Modifying product quantities in the cart.
-
-## Learn More
-
-To learn more about the concepts covered in this project and to dive deeper into Redux and asynchronous code handling, consider exploring Redux documentation and other related resources.
+[Redux Cart Project Demo](https://redux-cart-esmat-demo.netlify.app/)
 
 ## License
 
 This project is open-source and available under the MIT License. Feel free to use and modify it as needed.
+
+---
+
+**Note**: This project is intended for educational purposes and does not mention any specific course or instructor.
